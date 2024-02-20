@@ -1,13 +1,12 @@
 // NAVIGATION
 export const NAV_LINKS = [
   { href: '/', key: 'home', label: 'Home' },
-  { href: '/', key: 'how_hilink_work', label: 'How Hilink Work?' },
+  { href: '/', key: 'how_parklink_work', label: 'How Parklink Works?' },
   { href: '/', key: 'services', label: 'Services' },
-  { href: '/', key: 'pricing ', label: 'Pricing ' },
+  { href: '/', key: 'pricing', label: 'Pricing' },
   { href: '/', key: 'contact_us', label: 'Contact Us' },
 ];
 
-// CAMP SECTION
 export const PEOPLE_URL = [
   '/person-1.png',
   '/person-2.png',
@@ -15,35 +14,47 @@ export const PEOPLE_URL = [
   '/person-4.png',
 ];
 
+// PARKING SECTION
+export const PARKING_SPOT_IMAGES = [
+  '/parking-1.png',
+  '/parking-2.png',
+  '/parking-3.png',
+  '/parking-4.png',
+];
+
 // FEATURES SECTION
 export const FEATURES = [
   {
-    title: 'Real maps can be offline',
+    title: 'Real-time availability',
     icon: '/map.svg',
+    // icon: '/availability.svg',
     variant: 'green',
     description:
-      'We provide a solution for you to be able to use our application when climbing, yes offline maps you can use at any time there is no signal at the location',
+      'Check parking spot availability in real-time. Our app updates instantly, so you always know where you can park.',
   },
   {
-    title: 'Set an adventure schedule',
+    title: 'Reserve your spot',
     icon: '/calendar.svg',
+    // icon: '/reserve.svg',
     variant: 'green',
     description:
-      "Schedule an adventure with friends. On holidays, there are many interesting offers from Hilink. That way, there's no more discussion",
+      'No more circling the block. Reserve and pay for your parking spot with Parklink, ensuring a hassle-free start to your visit.',
   },
   {
-    title: 'Technology using augment reality',
-    icon: '/tech.svg',
-    variant: 'green',
-    description:
-      'Technology uses augmented reality as a guide to your hiking trail in the forest to the top of the mountain. Already supported by the latest technology without an internet connection',
-  },
-  {
-    title: 'Many new locations every month',
+    title: 'Seamless navigation',
     icon: '/location.svg',
+    // icon: '/navigation.svg',
+    variant: 'green',
+    description:
+      'Get turn-by-turn directions to your parking spot. Parklink integrates with your phone’s GPS to guide you directly to your reserved spot.',
+  },
+  {
+    title: 'Diverse parking options',
+    icon: '/tech.svg',
+    // icon: '/options.svg',
     variant: 'orange',
     description:
-      'Lots of new locations every month, because we have a worldwide community of climbers who share their best experiences with climbing',
+      'From street parking to secure garages, discover a variety of parking options in your city. New spots added regularly for your convenience.',
   },
 ];
 
@@ -52,35 +63,36 @@ export const FOOTER_LINKS = [
   {
     title: 'Learn More',
     links: [
-      'About Hilink',
+      'About Parklink',
       'Press Releases',
-      'Environment',
-      'Jobs',
+      'Sustainability',
+      'Careers',
       'Privacy Policy',
       'Contact Us',
     ],
   },
   {
     title: 'Our Community',
-    links: ['Climbing xixixi', 'Hiking hilink', 'Hilink kinthill'],
+    links: ['Drivers Forum', 'City Partnerships', 'User Stories'],
   },
 ];
 
 export const FOOTER_CONTACT_INFO = {
   title: 'Contact Us',
   links: [
-    { label: 'Admin Officer', value: '123-456-7890' },
-    { label: 'Email Officer', value: 'hilink@akinthil.com' },
+    { label: 'Customer Support', value: '123-456-7890' },
+    { label: 'Email Support', value: 'support@parklinkapp.com' },
   ],
 };
 
 export const SOCIALS = {
-  title: 'Social',
+  title: 'Follow Us',
   links: [
     '/facebook.svg',
     '/instagram.svg',
     '/twitter.svg',
     '/youtube.svg',
     '/wordpress.svg',
+    '/linkedin.svg',
   ],
 };
